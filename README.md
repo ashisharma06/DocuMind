@@ -82,5 +82,4 @@ This opens a browser tab where you can ask questions through a text box instead 
 ## Future Improvements
 
 - Source citation (show which page an answer came from)
-- Web UI (Streamlit)
 - Support for multiple documents
