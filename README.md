@@ -63,6 +63,16 @@ Answer: I don't have enough information in the document to answer that.
 
 Notice the second example — the system correctly refuses to answer questions that require opinion/judgment rather than facts from the document, avoiding hallucination.
 
+## Web UI (optional)
+
+A simple Streamlit interface is also available:
+
+```bash
+streamlit run app.py
+```
+
+This opens a browser tab where you can ask questions through a text box instead of the terminal.
+
 ## Key Design Choices
 
 - **Persistent vector store**: Embeddings are cached to disk (`chroma_db/`) so the document isn't re-embedded on every run, saving API calls.
